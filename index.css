@@ -1,0 +1,36 @@
+*{
+    box-sizing:border-box;
+}
+
+
+.Acc{
+    margin:20px;
+    width:500px;
+    height:150px;
+    border:2px solid goldenrod;
+    overflow: hidden;
+    padding:20px 10px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+}
+
+.top:after{
+    content:'\2796';
+}
+
+.active:after{
+    content:'\02795';
+}
+
+.Accactive{
+    height:50px;
+}
+
+
+
+
